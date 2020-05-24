@@ -11,7 +11,7 @@ ffmpeg下载地址：[https://ffmpeg.zeranoe.com/builds/](https://ffmpeg.zeranoe
 
 再打开工具将缓存目录的路径复制到工具中敲回车，将自动扫描下载目录，并将生成的mp4文件放在工具的同级的output目录下。
 
-已编译的EXE可执行文件：[链接: https://pan.baidu.com/s/1zd0RZ5cYjYWo7v89fK1OPQ 提取码: quzw](https://pan.baidu.com/s/1zd0RZ5cYjYWo7v89fK1OPQ)
+已编译的EXE可执行文件：[https://github.com/bloodarea/ConvertM4StoMP4/releases](https://github.com/bloodarea/ConvertM4StoMP4/releases)
 
 展示：
 ![展示](https://img-blog.csdnimg.cn/20200523224607601.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI1OTY1MTY1,size_16,color_FFFFFF,t_70)
