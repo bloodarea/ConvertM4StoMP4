@@ -1,6 +1,5 @@
 <h1 align = center>批量合成bilibili的m4s缓存文件为MP4格式</h1>
 <font size = 4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;众所周知，B站是一个学习网站，我常常在B站看一些教程视频，但是有时候没有网络就看不了了，于是我打算把教程都缓存下来看，不得不说，B站的缓存速度还是相当快的，缓存好以后，当我找到缓存目录的时候，发现缓存的文件音画是分离的，我尝试了用格式工厂的视频混流功能，虽然能够实现m4s文件合成为mp4文件，但是不能做到批量合成，需要一个个拖入音频和视频M4S文件，于是我就用python写了一个批量合成m4s文件的工具，通过循环调用ffmpeg中的命令合成MP4文件。</font>
-<br>
 首先需要安装ffmpeg
 ffmpeg下载地址：[https://ffmpeg.zeranoe.com/builds/](https://ffmpeg.zeranoe.com/builds/)
 解压好下载的压缩包后，再将bin目录加入Path环境变量中
