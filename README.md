@@ -4,8 +4,8 @@
 </p>
 
 <p>
-首先需要安装ffmpeg
-ffmpeg下载地址：[https://ffmpeg.zeranoe.com/builds/](https://ffmpeg.zeranoe.com/builds/)
+首先需要安装ffmpeg<p>
+    ffmpeg下载地址：<a href="https://ffmpeg.zeranoe.com/builds/">https://ffmpeg.zeranoe.com/builds</a></p>
 解压好下载的压缩包后，再将bin目录加入Path环境变量中
 按Win+R 运行 输入cmd 在弹出的框框中输入 ffmpeg ，如果没有出现既不是内部或外部命令之类的话就是安装成功了
 </p>
