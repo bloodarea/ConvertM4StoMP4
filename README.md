@@ -1,14 +1,21 @@
 <h1 align = center>批量合成bilibili的m4s缓存文件为MP4格式</h1>
+<p>
 <font size = 4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;众所周知，B站是一个学习网站，我常常在B站看一些教程视频，但是有时候没有网络就看不了了，于是我打算把教程都缓存下来看，不得不说，B站的缓存速度还是相当快的，缓存好以后，当我找到缓存目录的时候，发现缓存的文件音画是分离的，我尝试了用格式工厂的视频混流功能，虽然能够实现m4s文件合成为mp4文件，但是不能做到批量合成，需要一个个拖入音频和视频M4S文件，于是我就用python写了一个批量合成m4s文件的工具，通过循环调用ffmpeg中的命令合成MP4文件。</font>
+</p>
+
+<p>
 首先需要安装ffmpeg
 ffmpeg下载地址：[https://ffmpeg.zeranoe.com/builds/](https://ffmpeg.zeranoe.com/builds/)
 解压好下载的压缩包后，再将bin目录加入Path环境变量中
 按Win+R 运行 输入cmd 在弹出的框框中输入 ffmpeg ，如果没有出现既不是内部或外部命令之类的话就是安装成功了
+</p>
 
+<p>
 先将手机上的缓存目录复制到电脑上
 一般B站的缓存目录位于：/Android/data/tv.danmaku.bili/download
-
-再打开工具将缓存目录的路径复制到工具中敲回车，将自动扫描下载目录，并将生成的mp4文件放在工具的同级的output目录下。
+    <br><br>
+再打开工具将缓存目录的路径复制到工具中敲回车，工具将自动扫描下载目录，并将生成的mp4文件放在工具的同级的output目录下。 
+</p>
 
 已编译的EXE可执行文件：[https://github.com/bloodarea/ConvertM4StoMP4/releases](https://github.com/bloodarea/ConvertM4StoMP4/releases)
 
